@@ -41,6 +41,12 @@ Lint shell scripts:
 shellcheck scripts/*.sh
 ```
 
+Validate plugin structure:
+
+```bash
+python3 scripts/validate_plugin.py
+```
+
 Check bot identity when `.env` contains the required `TELEGRAM_*` variables:
 
 ```bash
@@ -75,5 +81,6 @@ GitHub Actions runs:
 
 - Gitleaks secret scanning.
 - JSON validation for plugin and commitlint config files.
+- Plugin manifest, asset path, and skill frontmatter validation.
 - ShellCheck for scripts.
 - Required-file checks for plugin metadata, skill, script, license, changelog, and assets.

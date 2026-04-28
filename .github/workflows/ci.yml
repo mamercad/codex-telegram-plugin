@@ -30,13 +30,16 @@ jobs:
           GITLEAKS_CONFIG: .gitleaks.toml
 
       - name: Validate plugin manifest JSON
-        run: python -m json.tool .codex-plugin/plugin.json >/dev/null
+        run: python3 -m json.tool .codex-plugin/plugin.json >/dev/null
 
       - name: Validate commitlint config JSON
-        run: python -m json.tool .commitlintrc.json >/dev/null
+        run: python3 -m json.tool .commitlintrc.json >/dev/null
+
+      - name: Validate plugin structure
+        run: python3 scripts/validate_plugin.py
 
       - name: Lint shell scripts
-        run: shellcheck scripts/*.sh
+        run: find scripts -name '*.sh' -print0 | xargs -0 shellcheck
 
       - name: Verify expected plugin files
         run: |

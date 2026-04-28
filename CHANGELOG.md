@@ -6,6 +6,10 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
+### Changed
+- Point plugin homepage and repository metadata at `mamercad/codex-telegram-plugin`.
+- Add CI validation for plugin structure, asset paths, and skill frontmatter.
+
 ### Added
 - Initial Telegram Codex plugin manifest.
 - Telegram skill guidance for bot discovery, update inspection, and confirmation-first sends.

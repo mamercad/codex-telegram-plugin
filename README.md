@@ -47,6 +47,17 @@ This repository uses Gitleaks in GitHub Actions. To run the same scan locally:
 gitleaks git --config .gitleaks.toml --redact .
 ```
 
+## Validation
+
+Run the same structural checks used by CI:
+
+```bash
+python3 scripts/validate_plugin.py
+python3 -m json.tool .codex-plugin/plugin.json >/dev/null
+python3 -m json.tool .commitlintrc.json >/dev/null
+shellcheck scripts/*.sh
+```
+
 ## Repository Conventions
 
 - Formatting defaults are defined in `.editorconfig`.

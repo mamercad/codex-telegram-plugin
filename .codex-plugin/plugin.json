@@ -7,8 +7,8 @@
     "email": "mamercad@gmail.com",
     "url": "https://github.com/mamercad"
   },
-  "homepage": "https://github.com/mamercad/telegram-plugin",
-  "repository": "https://github.com/mamercad/telegram-plugin",
+  "homepage": "https://github.com/mamercad/codex-telegram-plugin",
+  "repository": "https://github.com/mamercad/codex-telegram-plugin",
   "license": "MIT",
   "keywords": [
     "telegram",
