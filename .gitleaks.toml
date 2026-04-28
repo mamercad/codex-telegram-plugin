@@ -1,0 +1,4 @@
+title = "codex-telegram-plugin gitleaks config"
+
+[extend]
+useDefault = true

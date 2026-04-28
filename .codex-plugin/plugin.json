@@ -1,0 +1,44 @@
+{
+  "name": "telegram",
+  "version": "0.1.0",
+  "description": "Codex plugin for working with Telegram Bot API messaging workflows.",
+  "author": {
+    "name": "Mark Mercado",
+    "email": "mamercad@gmail.com",
+    "url": "https://github.com/mamercad"
+  },
+  "homepage": "https://github.com/mamercad/telegram-plugin",
+  "repository": "https://github.com/mamercad/telegram-plugin",
+  "license": "MIT",
+  "keywords": [
+    "telegram",
+    "bot-api",
+    "messaging",
+    "codex-plugin"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Telegram",
+    "shortDescription": "Inspect Telegram bot state and send confirmed bot messages.",
+    "longDescription": "Helper plugin for Telegram Bot API workflows. It guides Codex through bot authentication, chat discovery, update inspection, message drafting, and confirmation-first sending.",
+    "developerName": "Mark Mercado",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "websiteURL": "https://core.telegram.org/bots/api",
+    "privacyPolicyURL": "https://telegram.org/privacy",
+    "termsOfServiceURL": "https://telegram.org/tos",
+    "defaultPrompt": [
+      "Check my Telegram bot identity.",
+      "Show recent Telegram bot updates.",
+      "Draft a Telegram message and ask before sending it."
+    ],
+    "brandColor": "#2AABEE",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.svg",
+    "screenshots": []
+  }
+}
