@@ -9,6 +9,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Changed
 - Point plugin homepage and repository metadata at `mamercad/codex-telegram-plugin`.
 - Add CI validation for plugin structure, asset paths, and skill frontmatter.
+- Normalize shared plugin repository boilerplate with the UptimeRobot and UniFi plugins.
 
 ### Added
 - Initial Telegram Codex plugin manifest.
