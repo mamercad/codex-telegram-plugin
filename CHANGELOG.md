@@ -12,6 +12,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Normalize shared plugin repository boilerplate with the UptimeRobot and UniFi plugins.
 
 ### Added
+- GitHub Actions release workflow for tagged plugin releases.
+- Slack release notifications when `SLACK_WEBHOOK_URL` is configured.
 - Initial Telegram Codex plugin manifest.
 - Telegram skill guidance for bot discovery, update inspection, and confirmation-first sends.
 - Curl-based Telegram Bot API helper script.
